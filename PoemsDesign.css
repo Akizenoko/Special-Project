@@ -47,8 +47,8 @@ body{
     text-align: center;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 35px;
 } 
 #titleforpoems{
@@ -73,8 +73,8 @@ body{
     text-align: left;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 #poem2title{
@@ -93,8 +93,8 @@ body{
     text-align: left;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 #poem3title{
@@ -113,8 +113,8 @@ body{
     text-align: left;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 #herpoem1title{
@@ -133,8 +133,8 @@ body{
     text-align: left;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 #herpoem2title{
@@ -153,8 +153,8 @@ body{
     text-align: left;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 #herpoem3title{
@@ -173,8 +173,8 @@ body{
     text-align: left;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 #herpoem4title{
@@ -193,8 +193,8 @@ body{
     text-align: left;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 125px;
-    margin-right: 125px;
+   margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 #herpoem5title{
@@ -213,8 +213,8 @@ body{
     text-align: left;
     text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 #Furina{
@@ -224,8 +224,7 @@ body{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
-    float: left;}
+}
 #FurinaMessage{
     border-style: solid;
     border-radius: 25px;

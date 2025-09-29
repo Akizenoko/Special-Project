@@ -54,8 +54,8 @@ body{
     text-align: left;
      text-shadow: 1px 4px 3px black;
     font-size: large;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 35px;
     border: 2px;
     border-color: rgb(255, 72, 252);
