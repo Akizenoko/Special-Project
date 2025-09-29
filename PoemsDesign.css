@@ -1,0 +1,251 @@
+body{
+    background-image: url(Images/Fontaine2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    position:sticky;
+    top: 0px;
+    backdrop-filter: blur(15px);
+    z-index: 9999;
+    border-bottom-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+.navbar ul{
+    border-width: 4px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+.navbar a{
+     text-shadow: 1px 4px 3px black;
+    color: rgb(191, 255, 252);
+    text-decoration: none;
+    padding: 17px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgba(73, 22, 225, 0.5);
+}
+.navbar li{
+    float: right;
+}
+#header {
+    text-align: center;
+    text-shadow: 1px 4px 3px black;
+    color: rgb(157, 155, 254);
+}  
+#Message {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 35px;
+} 
+#titleforpoems{
+    font-size: xxx-large;
+    text-align: center;
+    color: rgb(106, 250, 228);
+    text-shadow: 1px 4px 3px black;
+}
+#poem1title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(97, 243, 194);
+    text-shadow: 1px 4px 3px black;;
+}
+#poem1{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    backdrop-filter: blur(10px);
+    border-color: rgb(116, 175, 234);
+    color: rgb(10, 255, 230);
+    text-align: left;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 15px;
+}
+#poem2title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(36, 186, 255);
+    text-shadow: 1px 4px 3px black;
+}
+#poem2{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    backdrop-filter: blur(10px);
+    border-color: rgb(53, 110, 255);
+    color: rgb(6, 158, 247);
+    text-align: left;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 15px;
+}
+#poem3title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(6, 218, 255);
+    text-shadow: 1px 4px 3px black;
+}
+#poem3{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    backdrop-filter: blur(10px);
+    border-color: rgb(116, 175, 234);
+    color: rgb(33, 255, 199);
+    text-align: left;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 15px;
+}
+#herpoem1title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(6, 218, 255);
+    text-shadow: 1px 4px 3px black;
+}
+#herpoem1{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    backdrop-filter: blur(10px);
+    border-color: rgb(116, 175, 234);
+    color: rgb(9, 221, 175);
+    text-align: left;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 15px;
+}
+#herpoem2title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(58, 255, 180);
+    text-shadow: 1px 4px 3px black;
+}
+#herpoem2{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    backdrop-filter: blur(10px);
+    border-color: rgb(116, 234, 210);
+    color: rgb(0, 255, 217);
+    text-align: left;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 15px;
+}
+#herpoem3title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(58, 255, 180);
+    text-shadow: 1px 4px 3px black;
+}
+#herpoem3{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    backdrop-filter: blur(10px);
+    border-color: rgb(116, 234, 210);
+    color: rgb(0, 255, 217);
+    text-align: left;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 15px;
+}
+#herpoem4title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(58, 255, 180);
+    text-shadow: 1px 4px 3px black;
+}
+#herpoem4{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    backdrop-filter: blur(10px);
+    border-color: rgb(116, 234, 210);
+    color: rgb(0, 255, 217);
+    text-align: left;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 15px;
+}
+#herpoem5title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(58, 255, 180);
+    text-shadow: 1px 4px 3px black;
+}
+#herpoem5{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    backdrop-filter: blur(10px);
+    border-color: rgb(116, 234, 210);
+    color: rgb(0, 255, 217);
+    text-align: left;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 15px;
+}
+#Furina{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    float: left;}
+#FurinaMessage{
+    border-style: solid;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 20px;
+    text-align: left;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 4px 3px black;
+}
+#FurinaAudio{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 200px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    float: right;
+    margin-bottom: 100px;
+
+}

@@ -1,0 +1,121 @@
+body{
+    background-image: url(Images/Liyue2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header {
+    text-align: center;
+    text-shadow: 1px 4px 3px black;
+    color: rgb(238, 240, 117);
+}
+.navbar{
+    position:sticky;
+    top: 0px;
+    backdrop-filter: blur(15px);
+    z-index: 9999;
+    border-bottom-style: solid;
+    border-color: rgb(251, 254, 100);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+.navbar ul{
+    border-width: 4px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+.navbar a{
+    text-shadow: 1px 4px 3px black;
+    color: rgb(251, 235, 57);
+    text-decoration: none;
+    padding: 17px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgba(115, 126, 8, 0.5);
+}
+.navbar li{
+    float: right;
+}
+#Camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+#Message {
+    color: rgb(202, 252, 74);
+    text-align: center;
+    text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 35px;
+}
+.gallery{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(246, 255, 169);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.gallery img{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: rgb(246, 255, 169);
+   height: 200px;
+   position: relative;
+   margin: 25px;
+   margin-left: 50px;
+   margin-right: 50px;
+
+}
+#Morax{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    float: left;
+}
+#MoraxMessage{
+    border-style: solid;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 4px 3px black;
+    
+}
+#MoraxAudio{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 200px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    float: right;
+    margin-bottom: 100px;
+
+}

@@ -1,0 +1,92 @@
+body{
+    background-image: url(Images/Inazumabg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333333;
+}
+#header {
+    text-align: center;
+    text-shadow: 1px 4px 3px black;
+    color: rgb(220, 52, 212);
+}
+.navbar{
+    position:sticky;
+    top: 0px;
+    backdrop-filter: blur(15px);
+    z-index: 9999;
+    border-bottom-style: solid;
+    border-color: rgb(247, 51, 195);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+.navbar ul{
+    border-width: 4px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+.navbar a{
+     text-shadow: 1px 4px 3px black;
+    color: rgb(235, 74, 211);
+    text-decoration: none;
+    padding: 17px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgba(225, 22, 195, 0.5);
+}
+.navbar li{
+    float: right;
+}
+#titleformessage{
+    text-align: center;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 4px 3px black;
+}
+.letter {
+    color: rgb(249, 178, 226);
+    text-align: left;
+     text-shadow: 1px 4px 3px black;
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 35px;
+    border: 2px;
+    border-color: rgb(255, 72, 252);
+    border-style: groove;
+    border-radius: 25px;
+    background-color: rgba(39, 3, 34, 0.4);
+    backdrop-filter: blur(10px);
+}
+#yumemizukiimage{
+    width: 300px; 
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#text{
+    text-align: center;
+    color: rgb(253, 85, 203);
+    text-shadow: 1px 4px 3px black;
+}
+#Musicforyou{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+#Musicforyoutext{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 4px 3px black;
+    font-size: medium;
+}
